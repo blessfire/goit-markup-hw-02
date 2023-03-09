@@ -5,6 +5,7 @@
   --hero-text-color: #ffffff;
   --team-color: #f4f4fd;
   --primary-color: #404bbf;
+  --subtle-color: #e7e9fc;
 }
 
 body {
@@ -13,7 +14,7 @@ font-family: 'Roboto', sans-serif; */
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--primary-text-color);
 
   /* links */
@@ -41,7 +42,9 @@ font-family: 'Roboto', sans-serif; */
 .logo {
   font-family: "Raleway";
 }
-
+.header {
+  color: var(--subtle-color);
+}
 /* nav elements */
 .nav-logo-web {
   color: var(--accent-color);
@@ -51,30 +54,21 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .nav-items {
+  font-weight: 500;
   color: var(--title-text-color);
-  font-family: "Roboto";
 }
 .contact {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
+  color: var();
 }
 
 /* hero */
 
 .hero {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  /* or 107% */
-
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--hero-text-color);
   background-color: var(--title-text-color);
 }
@@ -100,30 +94,19 @@ font-family: 'Roboto', sans-serif; */
 .footer {
   background-color: var(--title-text-color);
 }
-.footer-logo-web {
-  font-style: normal;
+.footer-logo {
   font-weight: 800;
   font-size: 18px;
-  /* identical to box height */
-
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-logo-web {
   color: var(--accent-color);
 }
-
 .footer-logo-studio {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--team-color);
 }
 .footer-text {
