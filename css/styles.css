@@ -2,7 +2,9 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
-  --hero-color: ;
+  --hero-text-color: #ffffff;
+  --team-color: #f4f4fd;
+  --nav-active-color: #404bbf;
 }
 
 body {
@@ -17,8 +19,9 @@ font-family: 'Roboto', sans-serif; */
   /* button background: #4D5AE5 */
 }
 
-.link {
+.link .link:active {
   text-decoration: none;
+  color: var(--nav-active-color);
 }
 .list {
   list-style-type: none;
@@ -27,14 +30,14 @@ font-family: 'Roboto', sans-serif; */
   font-family: "Raleway";
 }
 .nav-logo-web {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 .nav-logo-studio {
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .nav-items {
-  color: #2e2f42;
+  color: var(--title-text-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -48,7 +51,6 @@ font-family: 'Roboto', sans-serif; */
   line-height: 24px;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .hero {
   font-style: normal;
@@ -60,8 +62,11 @@ font-family: 'Roboto', sans-serif; */
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  color: var();
   background-color: #2e2f42;
+}
+.btn {
+  cursor: pointer;
 }
 .main {
   font-style: normal;
