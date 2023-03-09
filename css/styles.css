@@ -2,6 +2,7 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --hero-color: ;
 }
 
 body {
@@ -14,9 +15,6 @@ font-family: 'Roboto', sans-serif; */
   /*h text color #2E2F42 */
   /*contact #434455 */
   /* button background: #4D5AE5 */
-}
-a {
-  text-decoration: none;
 }
 
 .link {
