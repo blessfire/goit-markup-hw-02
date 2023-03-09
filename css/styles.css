@@ -1,6 +1,14 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+
 body {
+  /* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
   font-family: "Roboto";
-  color: #434455;
+  color: var(--primary-text-color);
 
   /* main text color  #434455 */
   /*h text color #2E2F42 */
@@ -68,9 +76,6 @@ a {
   color: #434455;
 }
 
-/* .main {
-  background: #e5e5e5; }*/
-
 .main-team {
   background: #f4f4fd;
 }
@@ -100,17 +105,4 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-}
-
-.footer {
-  background: #2e2f42;
-}
-.footer-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-  letter-spacing: 0.02em;
-  color: #e7e9fc;
 }
