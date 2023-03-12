@@ -73,11 +73,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 /* hero */
-.title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
+
 .hero {
   font-weight: 700;
   font-size: 56px;
@@ -87,7 +83,13 @@ font-family: 'Roboto', sans-serif; */
   color: var(--hero-text-color);
   background-color: var(--title-text-color);
 }
-
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hidden-title {
+}
 .hero-btn {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
@@ -96,16 +98,82 @@ font-family: 'Roboto', sans-serif; */
 .hero-btn:focus {
   background-color: var(--primary-color);
 }
+/* skills */
+.skills-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.skills-text {
+  letter-spacing: 0.02em;
+}
+
+/* works */
+.works {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+
+/* team */
+.our-team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+.team-card-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.team-card-text {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
 /* portfolio menu */
-.filtr-btn {
+.menu-btn {
   color: var(--accent-color);
   background-color: var(--team-color);
 }
-.filtr-btn:focus,
-.filtr-btn:hover {
+.menu-btn:focus,
+.menu-btn:hover {
   color: var(--hero-text-color);
   background-color: var(--primary-color);
 }
+
+.menu-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.menu-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* footer */
 .footer {
   background-color: var(--title-text-color);
 }
@@ -114,18 +182,4 @@ font-family: 'Roboto', sans-serif; */
 }
 .footer-text {
   color: var(--team-color);
-}
-
-h2 {
-  font-weight: 500;
-  line-height: 1.5;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-p {
-  font-size: 16px;
-  color: var(--primary-text-color);
-  letter-spacing: 0.02em;
 }
